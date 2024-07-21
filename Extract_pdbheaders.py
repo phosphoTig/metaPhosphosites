@@ -321,6 +321,8 @@ def main():
                                        Bond_angles_r_list,
                                        Bond_angles_o_list)),
                                        columns = title)
+    
+    df['Rfree - Rwork']=df['R_free_values'] - df['R_values']
 
     print("The Final Table is \n", df)
 
