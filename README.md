@@ -1,6 +1,13 @@
 # metaPhosphosites
- The collection of scripts in this repository are used to generate structural annotation of phoshphoryaltion sites from PDBs. The following steps include the workflow
-1. Gather PDBs for for proteins of interest - getPDBs.py
-2. Evaluate PDB quality - Extract_pdbheaders.py, 
-3. Annotate functional domains on proteins - extract_uniprot_Domain_annotations.py
-4. Map functional domains and phosphosites on PDBs -  
+ The collection of scripts in this repository are used to generate structural annotation of phoshphoryaltion sites in protein structures obtained from RCSB PDB. 
+The following steps include workflow for domain proximity analysis:
+ 1. Gather PDBs for proteins of interest - getPDBs.py
+ 2. Evaluate PDB quality - Extract_pdbheaders.py, deltaR_jointPlot.py
+ 3. Annotate functional domains on proteins - extract_uniprot_Domain_annotations.py
+ 4. Map functional domains and phosphosites on PDBs -  extract_pdb_seq.py, 
+ 5. Measure distances from pSTY to domain COM -
+ 6. Count STY residues within 10 & 25 angstroms of domain COM - 
+ 7. Hypergeometric distribution test & multiple hypothesis testing - 
+
+The following steps include workflow for interface/dimerization domain phosphosite annotaiton:
+ 1. Gather PISA analysis files in xml format from 
