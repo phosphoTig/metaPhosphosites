@@ -14,4 +14,4 @@ The following steps include workflow for interface/dimerization domain phosphosi
  2. Parse PISA xml files and store in csv - PISA_xml_Parser.py
  3. Filter PISA csv for phosphosites only - phosFilter.py, PSP_annotated_STY_pdb.csv
 
-Plot results summary - plotsDomains.py
+Plot results summary - plots_Domains.py
