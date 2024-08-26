@@ -6,8 +6,12 @@ The following steps include workflow for domain proximity analysis:
  3. Annotate functional domains on proteins - extract_uniprot_Domain_annotations.py
  4. Map functional domains and phosphosites on PDBs -  extract_pdb_seq.py, 
  5. Measure distances from pSTY to domain COM -
- 6. Count STY residues within 10 & 25 angstroms of domain COM - 
- 7. Hypergeometric distribution test & multiple hypothesis testing - 
+ 6. Count STY residues within 10 & 25 angstroms of domain COM - count_STY_withDist_DomainCOM.py
+ 7. Hypergeometric distribution test & multiple hypothesis testing - hypergeomeFDR.py
 
 The following steps include workflow for interface/dimerization domain phosphosite annotaiton:
- 1. Gather PISA analysis files in xml format from 
+ 1. Gather PISA analysis files in xml format using API - PDBePISA_xmlRetriver.py
+ 2. Parse PISA xml files and store in csv - PISA_xml_Parser.py
+ 3. Filter PISA csv for phosphosites only - phosFilter.py, PSP_annotated_STY_pdb.csv
+
+Plot results summary - plotsDomains.py
