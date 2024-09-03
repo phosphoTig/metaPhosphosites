@@ -3,6 +3,7 @@
  
  Structural and systems characterization of phosphorylation on metabolic enzymes identifies sex-specific metabolic reprogramming in obesity
 Tigist Y Tamir, Shreya Chaudhary, Annie X Li, Sonia E Trojan, Cameron T Flower, Paula Vo, Yufei Cui, Jeffrey C Davis, Rachit S Mukkamala, Francesca N Venditti, Alissandra L Hillis, Alex Toker, Matthew G Vander Heiden, Jessica B Spinelli, Norman J Kennedy, Roger J Davis, Forest M White
+
 bioRxiv 2024.08.28.609894; doi: https://doi.org/10.1101/2024.08.28.609894
 
 The following steps include workflow for domain proximity analysis:
