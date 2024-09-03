@@ -10,7 +10,7 @@ The following steps include workflow for domain proximity analysis:
  7. Hypergeometric distribution test & multiple hypothesis testing - hypergeomeFDR.py
 
 The following steps include workflow for interface/dimerization domain phosphosite annotaiton:
- 1. Gather PISA analysis files in xml format using API - PDBePISA_xmlRetriver.py
+ 1. Gather PISA analysis files in xml format using API - PDBePISA_retriver.py
  2. Parse PISA xml files and store in csv - PISA_xml_Parser.py
  3. Filter PISA csv for phosphosites only - phosFilter.py, PSP_annotated_STY_pdb.csv
 
